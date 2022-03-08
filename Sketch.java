@@ -1,8 +1,8 @@
 import processing.core.PApplet;
 
 /**
- * a program Sketch.java that randomizes where a flower shows up on a screen, and changes the color of its petals and the backroound color 
- * based on the location of the flower 
+ * a program Sketch.java that randomizes where a flower shows up on a screen, changes the color of its petals and the backroound color 
+ * based on the location of the flower, and displays time in the middle of the flower  
  * @author: Jenusan Yogarajah 
  */
 
