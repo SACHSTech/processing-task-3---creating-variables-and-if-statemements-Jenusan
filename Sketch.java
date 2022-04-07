@@ -60,8 +60,8 @@ public class Sketch extends PApplet {
     line(0, height / 3, width, height / 3);
     line(0, height * 2 / 3, width, height * 2 / 3);
 
-    if (fltPistalX < (width / 3) && fltPistalY < (height / 3)){
       //if pistal is placed in 1st box, flower will be red
+    if (fltPistalX < (width / 3) && fltPistalY < (height / 3)){
       fill(255, 0, 0);
       ellipse(fltPistalX, fltPistalY, width / 4 , width / 10);
       fill(255, 0, 0);
@@ -69,8 +69,8 @@ public class Sketch extends PApplet {
       fill(255, 255, 0);
       ellipse(fltPistalX, fltPistalY, width / 10 , width / 10);
 
-    } else if(width / 3 < fltPistalX && (fltPistalX < width * 2 / 3) && fltPistalY < (height / 3)){
       //if pistal is placed in 2nd box, flower will be orange 
+    } else if(width / 3 < fltPistalX && (fltPistalX < width * 2 / 3) && fltPistalY < (height / 3)){
       fill(255, 153, 0);
       ellipse(fltPistalX, fltPistalY, width / 4 , width / 10);
       fill(255, 153, 0);
@@ -78,8 +78,8 @@ public class Sketch extends PApplet {
       fill(255, 255, 0);
       ellipse(fltPistalX, fltPistalY, width / 10 , width / 10);
 
-    } else if(width * 2 / 3 < fltPistalX && height / 3 > fltPistalY){
       // if pistal is placed in 3rd box flower will be Purple
+    } else if(width * 2 / 3 < fltPistalX && height / 3 > fltPistalY){
       fill(102, 0, 153);
       ellipse(fltPistalX, fltPistalY, width / 4 , width / 10);
       fill(102, 0, 153);
@@ -87,8 +87,8 @@ public class Sketch extends PApplet {
       fill(255, 255, 0);
       ellipse(fltPistalX, fltPistalY, width / 10 , width / 10);
 
-    } else if (fltPistalX < width / 3 && fltPistalY > height / 3 && fltPistalY < height * 2 / 3){
       // if pistal is placed in 4th box flower will be light blue
+    } else if (fltPistalX < width / 3 && fltPistalY > height / 3 && fltPistalY < height * 2 / 3){
       fill(51, 153, 255);
       ellipse(fltPistalX, fltPistalY, width / 4 , width / 10);
       fill(51, 153, 255);
@@ -96,8 +96,8 @@ public class Sketch extends PApplet {
       fill(255, 255, 0);
       ellipse(fltPistalX, fltPistalY, width / 10 , width / 10);
 
-    } else if(width / 3 < fltPistalX && (fltPistalX < width * 2 / 3) && fltPistalY > (height / 3) && fltPistalY < height * 2 / 3){
       // if pistal is placed in 5th box flower will be brown
+    } else if(width / 3 < fltPistalX && (fltPistalX < width * 2 / 3) && fltPistalY > (height / 3) && fltPistalY < height * 2 / 3){
       fill(153, 102, 0);
       ellipse(fltPistalX, fltPistalY, width / 4 , width / 10);
       fill(153, 102, 0);
@@ -105,8 +105,8 @@ public class Sketch extends PApplet {
       fill(255, 255, 0);
       ellipse(fltPistalX, fltPistalY, width / 10 , width / 10);
 
-    } else if(width * 2 / 3 < fltPistalX && height / 3 < fltPistalY && fltPistalY < height * 2 / 3){
       // if pistal is placed in 6th box flower will be green
+    } else if(width * 2 / 3 < fltPistalX && height / 3 < fltPistalY && fltPistalY < height * 2 / 3){
       fill(0, 204, 0);
       ellipse(fltPistalX, fltPistalY, width / 4 , width / 10);
       fill(0, 204, 0);
@@ -114,8 +114,8 @@ public class Sketch extends PApplet {
       fill(255, 255, 0);
       ellipse(fltPistalX, fltPistalY, width / 10 , width / 10);
 
-    } else if(fltPistalX < width / 3 && fltPistalY > height * 2 / 3){
       // if pistal is placed in 7th box flower will be white
+    } else if(fltPistalX < width / 3 && fltPistalY > height * 2 / 3){
       fill(255, 255, 204);
       ellipse(fltPistalX, fltPistalY, width / 4 , width / 10);
       fill(255, 255, 204);
@@ -123,8 +123,8 @@ public class Sketch extends PApplet {
       fill(255, 255, 0);
       ellipse(fltPistalX, fltPistalY, width / 10 , width / 10);
 
-    } else if(width / 3 < fltPistalX && (fltPistalX < width * 2 / 3) && fltPistalY > height * 2 / 3){
       // if pistal is placed in 8th box flower will be Dark red
+    } else if(width / 3 < fltPistalX && (fltPistalX < width * 2 / 3) && fltPistalY > height * 2 / 3){
       fill(153, 0, 0);
       ellipse(fltPistalX, fltPistalY, width / 4 , width / 10);
       fill(153, 0, 0);
@@ -132,8 +132,8 @@ public class Sketch extends PApplet {
       fill(255, 255, 0);
       ellipse(fltPistalX, fltPistalY, width / 10 , width / 10);
 
-    } else if(width * 2 / 3 < fltPistalX && fltPistalY > height * 2 / 3){
       // if pistal is placed in 9th box flower will be grey
+    } else if(width * 2 / 3 < fltPistalX && fltPistalY > height * 2 / 3){
       fill(153, 153, 153);
       ellipse(fltPistalX, fltPistalY, width / 4 , width / 10);
       fill(153, 153, 153);
